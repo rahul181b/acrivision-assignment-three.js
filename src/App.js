@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div id="canvas-container" style={{ height: "500px" }}>
-      <Canvas>
+      <Canvas camera={{ position: [150, 150, 150], fov: 75 }}>
         <ambientLight intensity={0.1} />
         <directionalLight color="red" position={[0, 0, 5]} />
 
